@@ -7,9 +7,9 @@ US Bike Share Data Analysis Project
 ### Description
 Project for Udacity Nanodegree Programme. The project is an interactive shell
 programme which gives the user ability to explore bicycle sharing data from
-3 US cities, giving key statistics on times of travel, start and end
-destinations, trip durations and user information. It also gives the user
-option to view the raw data used.
+3 US cities (Chicago, New York City and Washington), giving key statistics on
+times of travel, start and end destinations, trip durations and user
+information. It also gives the user option to view the raw data used.
 
 ### Files used
 - bikeshare_2_submit.py - main Python code file
