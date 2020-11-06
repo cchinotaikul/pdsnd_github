@@ -28,8 +28,8 @@ def verify_input(choice_list):
         prompt_string = f'Enter full name or number:'
 
         for choice in choice_list:
-            prompt_string += (' ' + str(choice_list.index(choice)+1) + ') ' +
-                              choice.title())
+            choice_num = str(choice_list.index(choice)+1)
+            prompt_string += f' {choice_num}) {choice.title()}'
         prompt_string += ': \n'
 
         response = input(prompt_string).lower()
