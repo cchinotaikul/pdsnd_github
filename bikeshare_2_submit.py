@@ -23,7 +23,6 @@ def verify_input(choice_list):
     Returns:
         (str) output - validated output
     """
-    output = ''
     while True:
         prompt_string = f'Enter full name or number:'
 
@@ -35,15 +34,11 @@ def verify_input(choice_list):
         response = input(prompt_string).lower()
 
         if response.isdigit() and int(response) <= len(choice_list):
-            output = choice_list[int(response)-1]
-            break
+            return choice_list[int(response)-1]
         elif response in choice_list:
-            output = response
-            break
+            return response
         else:
             print('Invalid input. Please try again.\n')
-
-    return output
 
 
 def select_filter():
