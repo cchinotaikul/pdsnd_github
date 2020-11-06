@@ -12,10 +12,10 @@ destinations, trip durations and user information. It also gives the user
 option to view the raw data used.
 
 ### Files used
-bikeshare_2_submit.py - main Python code file
-chicago.csv - data file for Chicago
-new_york_city.csv - data file for New York City
-washingtion.csv - data file for Washington
+- bikeshare_2_submit.py - main Python code file
+- chicago.csv - data file for Chicago
+- new_york_city.csv - data file for New York City
+- washingtion.csv - data file for Washington
 
 ### Credits
 Credits to Udacity Programming for Data Science with Python Nanodegree
